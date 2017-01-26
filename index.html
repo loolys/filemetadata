@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>File metadata</title>
+  </head>
+  <body>
+    <!-- page content -->
+    <h1>File metadata</h1>
+    <p>Returns the size of an uploaded file in bytes, max size 1 000 000 bytes.</p>
+    <form method="post" enctype="multipart/form-data" action="/">
+      <input type="hidden" name="msgtype" value="2"/>
+      <input type="hidden" name="MAX_FILE_SIZE" value="1000" />
+      <input type="file" name="uploadField" />
+      <input type="submit" value="Upload" />
+    </form>
+  </body>
+</html>
